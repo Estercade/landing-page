@@ -12,7 +12,7 @@ body {
     max-height: 40px;
     display: flex;
     justify-content: space-between;
-    padding: 25px 250px;
+    padding: 10px 150px;
 }
 
 #links {
@@ -37,7 +37,6 @@ ul {
 
 .main-title {
     font-size: 48px;
-    font-weight: extra-bold;
     color: #F9FAF8;
 }
 
@@ -49,8 +48,9 @@ ul {
 .content {
     display: flex;
     background-color: #1F2937;
-    padding: 25px 250px;
+    padding: 100px 150px;
     flex: 1;
+    gap: 40px;
 }
 
 .splash {
@@ -61,8 +61,8 @@ ul {
 }
 
 #title-image {
-    min-width: 500px;
-    min-height: 250px;
+    min-width: 400px;
+    min-height: 200px;
     background-color: #6d747d;
     display: flex;
     justify-content: center;
@@ -70,32 +70,98 @@ ul {
     color: #E5E7EB;
 }
 
-#top-button {
-    flex-basis: none;
-    max-width: 150px;
+.info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 30px 150px;
 }
 
 .info-title {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    text-align: center;
 }
 
-.info {
-    padding: 25px 250px;
+.cards {
+    padding: 20px 150px;
+    display: flex;
+    align-content: space-between;
+    flex: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-desc {
+    text-align: center;
+    color: #6d747d;
+    max-width: 150px;
+    margin-top: 10px;
+
+}
+
+.placeholder-card{
+    background-color: white;
+    border: 4px solid black;
+    border-color: #3882F6;
+    min-height: 150px;
+    min-width: 150px;
+    border-radius: 16px;
 }
 
 button {
     background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    min-height: 30px;
+    max-width: 150px;
 }
 
 .review {
     background-color: #E5E7EB;
+    padding: 100px 150px;
 }
 
 .quote, .author {
     font-size: 36px;
     color: #1F2937;
+}
+
+.author {
+    text-align: right;
+}
+
+.container {
+    padding: 30px 150px;
+}
+
+.signup {
+    padding: 20px 150px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    color: #F9FAF8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#bot-button {
+    border: 4px solid black;
+    border-color: #F9FAF8;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .header, .footer {
