@@ -1,11 +1,10 @@
 /* Style sheet for landing page */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Helvetica, sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     flex: 1;
-    word-wrap: wrap;
 }
 
 ul {
@@ -30,6 +29,7 @@ button {
     max-height: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 150px;
 }
 
@@ -175,8 +175,7 @@ button {
 }
 
 #bot-button {
-    border: 3px solid black;
-    border-color: #F9FAF8;
+    border: 3px solid #F9FAF8;
 
 }
 
