@@ -1,0 +1,46 @@
+/* Style sheet for landing page */
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.review {
+    background-color: #E5E7EB;
+}
+
+.quote, .author {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
