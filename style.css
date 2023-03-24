@@ -1,14 +1,22 @@
 /* Style sheet for landing page */
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    word-wrap: wrap;
 }
 
-.main-title {
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #F9FAF8;
-    background-color: #1F2937;
+.header {
+    max-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 250px;
+}
+
+#links {
+    gap: 15px;
 }
 
 .logo {
@@ -21,10 +29,60 @@ body {
     color: #E5E7EB;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.main-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content {
+    display: flex;
+    background-color: #1F2937;
+    padding: 25px 250px;
+    flex: 1;
+}
+
+.splash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+#title-image {
+    min-width: 500px;
+    min-height: 250px;
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+#top-button {
+    flex-basis: none;
+    max-width: 150px;
+}
+
 .info-title {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+}
+
+.info {
+    padding: 25px 250px;
 }
 
 button {
